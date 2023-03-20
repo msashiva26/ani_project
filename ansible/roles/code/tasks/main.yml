@@ -1,0 +1,6 @@
+- name: getting code from github
+  git:
+    repo: "https://github.com/msashiva26/ani_project.git"
+    dest: /var/www/html
+    version: ani
+
